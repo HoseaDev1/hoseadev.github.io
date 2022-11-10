@@ -1,0 +1,58 @@
+*, html, head, body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.container {
+    background-color: black;
+}
+.container-navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-name {
+    color: white;
+    font-size: 3.5vw;
+}
+
+.last-name {
+    color: crimson;
+    font-size: 2.4vw;
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    color: white;
+    list-style-type: none;
+    font-size: 2vw;
+    margin: 15px;
+}
+
+.li-navbar > a {
+    color: white;
+    text-decoration: none;
+}
+
+.li-navbar > a:hover{
+    color: crimson;
+    transition: .3s ease-in-out;
+}
+
+.active {
+    color: crimson !important;
+}
