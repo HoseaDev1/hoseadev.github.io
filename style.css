@@ -8,6 +8,24 @@
     font-family: 'Yellowtail', cursive;
 }
 
+#animate-name {
+    animation: ubahWarna 5s infinite;
+}
+
+@keyframes ubahWarna {
+    0% {
+        color: crimson;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: crimson;
+    }
+}
+
 .offcanvas-title {
     color: tomato;
     font-weight: 700;
