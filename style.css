@@ -10,3 +10,15 @@
 section {
     padding-top: 5rem;
 }
+
+.social-media {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(2px, 30px));
+
+}
+
+.logo-sosmed:hover {
+    transition: all .5s ease-in-out;
+    color: black;
+}
