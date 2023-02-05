@@ -23,7 +23,7 @@ section {
     color: black;
 }
 
-#home {
+*, html, body, head {
     max-width: 100%;
     overflow-x: hidden;
 }
