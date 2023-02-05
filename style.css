@@ -22,3 +22,8 @@ section {
     transition: all .5s ease-in-out;
     color: black;
 }
+
+#home {
+    max-width: 100%;
+    overflow-x: hidden;
+}
