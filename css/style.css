@@ -706,6 +706,14 @@ video {
   max-width: 36rem;
 }
 
+.max-w-\[150px\] {
+  max-width: 150px;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
 .origin-bottom-left {
   transform-origin: bottom left;
 }
@@ -1254,6 +1262,10 @@ body {
 
   .lg\:max-w-full {
     max-width: 100%;
+  }
+
+  .lg\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .lg\:rounded-none {
