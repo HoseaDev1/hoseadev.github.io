@@ -739,6 +739,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .self-end {
   align-self: flex-end;
 }
